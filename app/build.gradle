@@ -21,13 +21,13 @@ android {
 
     buildTypes {
         debug {
-            buildConfigField "String", "GRADLE_WEB_BASE_URL", "\"http://daitso.kbhub.co.kr/\""
+            buildConfigField "String", "GRADLE_WEB_BASE_URL", "\"https://daitso.kbhub.co.kr/\""
         }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
 
-            buildConfigField "String", "GRADLE_WEB_BASE_URL", "\"http://daitso.kbhub.co.kr/\""
+            buildConfigField "String", "GRADLE_WEB_BASE_URL", "\"https://daitso.kbhub.co.kr/ \""
         }
     }
     compileOptions {
